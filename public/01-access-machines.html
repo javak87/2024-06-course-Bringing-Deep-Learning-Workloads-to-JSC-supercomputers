@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
-  <meta name="author" content="Alexandre Strube // Sabrina Benassou">
-  <meta name="dcterms.date" content="2024-09-17">
+  <meta name="author" content="Alexandre Strube // Sabrina Benassou // Javad Kasravi">
+  <meta name="dcterms.date" content="2024-11-19">
   <title>Accessing the machines, intro</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -226,8 +226,9 @@
 
 <section id="title-slide">
   <h1 class="title">Accessing the machines, intro</h1>
-  <p class="author">Alexandre Strube // Sabrina Benassou</p>
-  <p class="date">September 17, 2024</p>
+  <p class="author">Alexandre Strube // Sabrina Benassou // Javad
+Kasravi</p>
+  <p class="date">November 19, 2024</p>
 </section>
 
 <section id="communication" class="slide level2">
@@ -235,28 +236,22 @@
 <p>Links for the complimentary parts of this course:</p>
 <ul>
 <li class="fragment"><a
-href="https://go.fzj.de/bringing-dl-workloads-to-jsc-zoom">Zoom</a></li>
-<li class="fragment"><a
-href="https://go.fzj.de/bringing-dl-workloads-to-jsc-slack">Slack</a></li>
-<li class="fragment"><a
-href="https://go.fzj.de/bringing-dl-workloads-to-jsc-course">JSC
-Training Page</a></li>
-<li class="fragment"><a
-href="https://go.fzj.de/bringing-dl-workloads-to-jsc-project-join">Judoor
-project page invite</a></li>
-<li class="fragment"><a
-href="https://go.fzj.de/bringing-dl-workloads-to-jsc">This document:
-https://go.fzj.de/bringing-dl-workloads-to-jsc</a></li>
+href="https://go.fzj.de/dl-in-neuroscience-course">Event page</a></li>
+<li class="fragment"><strong><em>TODO</em></strong> <a
+href="https://go.fzj.de/dl-in-neuroscience-project-join">Judoor project
+page invite</a></li>
+<li class="fragment"><a href="https://go.fzj.de/dl-in-neuroscience">This
+document: https://go.fzj.de/dl-in-neuroscience</a></li>
 <li class="fragment">Our mailing list for <a
 href="https://lists.fz-juelich.de/mailman/listinfo/ml">AI news</a></li>
-<li class="fragment"><a
-href="https://go.fzj.de/bringing-dl-workloads-to-jsc-survey">Survey at
-the end of the course</a></li>
+<li class="fragment"><strong><em>TODO</em></strong> <a
+href="https://go.fzj.de/dl-in-neuroscience-survey">Survey at the end of
+the course</a></li>
 <li class="fragment"><a
 href="https://gitlab.jsc.fz-juelich.de/kesselheim1/sc_venv_template">Virtual
 Environment template</a></li>
 <li class="fragment"><a
-href="https://go.fzj.de/bringing-dl-workloads-to-jsc-repo">SOURCE of the
+href="https://go.fzj.de/dl-in-neuroscience-repo">SOURCE of the
 course/slides on Github</a></li>
 </ul>
 <p><img
@@ -295,6 +290,12 @@ data-src="images/Logo_FZ_Juelich_rgb_Schutzzone_transparent.svg" /></p>
 <figcaption aria-hidden="true">Sabrina Benassou</figcaption>
 </figure>
 </div>
+<div class="col">
+<figure>
+<img data-src="pics/javad.jpg" alt="Javad Kasravi" />
+<figcaption aria-hidden="true">Javad Kasravi</figcaption>
+</figure>
+</div>
 </div>
 <p><img
 data-src="images/Logo_FZ_Juelich_rgb_Schutzzone_transparent.svg" /></p>
@@ -311,39 +312,39 @@ data-src="images/Logo_FZ_Juelich_rgb_Schutzzone_transparent.svg" /></p>
 </thead>
 <tbody>
 <tr class="odd">
-<td>10:00 - 10:15</td>
+<td>09:00 - 09:15</td>
 <td>Welcome</td>
 </tr>
 <tr class="even">
-<td>10:15 - 11:00</td>
+<td>09:15 - 10:00</td>
 <td>Introduction</td>
 </tr>
 <tr class="odd">
-<td>11:00 - 11:15</td>
+<td>11:00 - 10:15</td>
 <td>Coffee break</td>
 </tr>
 <tr class="even">
-<td>11:16 - 11:30</td>
+<td>10:16 - 10:30</td>
 <td>Judoor, Keys</td>
 </tr>
 <tr class="odd">
-<td>11:30 - 12:00</td>
+<td>10:30 - 11:00</td>
 <td>SSH, Jupyter, VS Code</td>
+</tr>
+<tr class="even">
+<td>11:00 - 11:15</td>
+<td>Coffee Break</td>
+</tr>
+<tr class="odd">
+<td>11:15 - 12:00</td>
+<td>Running services on the login and compute nodes</td>
 </tr>
 <tr class="even">
 <td>12:00 - 12:15</td>
 <td>Coffee Break</td>
 </tr>
 <tr class="odd">
-<td>12:15 - 13:00</td>
-<td>Running services on the login and compute nodes</td>
-</tr>
-<tr class="even">
-<td>13:00 - 13:15</td>
-<td>Coffee Break</td>
-</tr>
-<tr class="odd">
-<td>13:30 - 14:00</td>
+<td>12:30 - 13:00</td>
 <td>Sync (everyone should be at the same point)</td>
 </tr>
 </tbody>
@@ -354,9 +355,9 @@ data-src="images/Logo_FZ_Juelich_rgb_Schutzzone_transparent.svg" /></p>
 <h3 id="note">Note</h3>
 <p>Please open this document on your own browser! We will need it for
 the exercises. <a
-href="https://go.fzj.de/bringing-dl-workloads-to-jsc">https://go.fzj.de/bringing-dl-workloads-to-jsc</a></p>
+href="https://go.fzj.de/dl-in-neuroscience">https://go.fzj.de/dl-in-neuroscience</a></p>
 <figure>
-<img data-src="images/bringing-dl-workloads-to-jsc.png"
+<img data-src="images/dl-in-neuroscience.png"
 alt="Mobile friendly, but you need it on your computer, really" />
 <figcaption aria-hidden="true">Mobile friendly, but you need it on your
 computer, really</figcaption>
@@ -545,7 +546,7 @@ compile, etc</li>
 <h4 id="getting-compute-time">Getting compute time</h4>
 <ul>
 <li class="fragment">Go to <a
-href="https://go.fzj.de/bringing-dl-workloads-to-jsc-project-join">https://go.fzj.de/bringing-dl-workloads-to-jsc-project-join</a></li>
+href="https://go.fzj.de/dl-in-neuroscience-project-join">https://go.fzj.de/dl-in-neuroscience-project-join</a></li>
 <li class="fragment">Join the course project
 <code>training2434</code></li>
 <li class="fragment">Sign the Usage Agreements (<a
@@ -553,9 +554,9 @@ href="https://drive.google.com/file/d/1mEN1GmWyGFp75uMIi4d6Tpek2NC_X8eY/view">Vi
 <li class="fragment">Compute time allocation is based on compute
 projects. For every compute job, a compute project pays.</li>
 <li class="fragment">Time is measured in core-hours. One hour of Jureca
-DC is 48 core-hours.</li>
+DC is 128 core-hours.</li>
 <li class="fragment">Example: Job runs for 8 hours on 64 nodes of Jureca
-DC: 8 * 64 * 48 = 24576 core-h!</li>
+DC: 8 * 64 * 128 = 65536 core-h!</li>
 </ul>
 </section>
 <section id="jupyter" class="slide level2">

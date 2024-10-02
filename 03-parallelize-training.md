@@ -1,8 +1,8 @@
 ---
-author: Alexandre Strube // Sabrina Benassou
+author: Alexandre Strube // Sabrina Benassou // Javad Kasravi
 title: Bringing Deep Learning Workloads to JSC supercomputers
 subtitle: Parallelize Training
-date: September 18, 2024
+date: November 19, 2024
 ---
 
 ## The ResNet50 Model
@@ -125,7 +125,7 @@ trainer.save_checkpoint("image_classification_model.pt")
 #SBATCH --nodes=1            
 #SBATCH --gres=gpu:1
 #SBATCH --ntasks-per-node=1  
-#SBATCH --cpus-per-task=96
+#SBATCH --cpus-per-task=128
 #SBATCH --time=06:00:00
 #SBATCH --partition=dc-gpu
 #SBATCH --account=training2434
@@ -184,7 +184,7 @@ real	342m11.864s
 #SBATCH --nodes=1                     
 #SBATCH --gres=gpu:4                  # Use the 4 GPUs available
 #SBATCH --ntasks-per-node=4           # When using pl it should always be set to 4
-#SBATCH --cpus-per-task=24            # Divide the number of cpus (96) by the number of GPUs (4)
+#SBATCH --cpus-per-task=32            # Divide the number of cpus (128) by the number of GPUs (4)
 #SBATCH --time=02:00:00
 #SBATCH --partition=dc-gpu
 #SBATCH --account=training2434
@@ -523,7 +523,7 @@ trainer.save_checkpoint("image_classification_model.pt")
 #SBATCH --nodes=16                     # This needs to match Trainer(num_nodes=...)
 #SBATCH --gres=gpu:4                   # Use the 4 GPUs available
 #SBATCH --ntasks-per-node=4            # When using pl it should always be set to 4
-#SBATCH --cpus-per-task=24             # Divide the number of cpus (96) by the number of GPUs (4)
+#SBATCH --cpus-per-task=32             # Divide the number of cpus (128) by the number of GPUs (4)
 #SBATCH --time=00:15:00
 #SBATCH --partition=dc-gpu
 #SBATCH --account=training2434
@@ -596,14 +596,14 @@ trainer = pl.Trainer(max_epochs=10,  accelerator="gpu", num_nodes=nnodes)
 #SBATCH --nodes=1                
 #SBATCH --gres=gpu:1
 #SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=96
+#SBATCH --cpus-per-task=128
 ```
 - Became
 - ```bash
 #SBATCH --nodes=16                   # This needs to match Trainer(num_nodes=...)
 #SBATCH --gres=gpu:4                 # Use the 4 GPUs available
 #SBATCH --ntasks-per-node=4          # When using pl it should always be set to 4
-#SBATCH --cpus-per-task=24           # Divide the number of cpus (96) by the number of GPUs (4)
+#SBATCH --cpus-per-task=32           # Divide the number of cpus (128) by the number of GPUs (4)
 export CUDA_VISIBLE_DEVICES=0,1,2,3  # Very important to make the GPUs visible
 ```
 
@@ -658,7 +658,7 @@ tensorboard --logdir=[PATH_TO_TENSOR_BOARD]
 
 #### Feedback is more than welcome!
 
-#### Link to [other courses at JSC](https://go.fzj.de/bringing-dl-workloads-to-jsc-all-courses)
+#### Link to [other courses at JSC](https://go.fzj.de/dl-in-neuroscience-all-courses)
 
 ---
 

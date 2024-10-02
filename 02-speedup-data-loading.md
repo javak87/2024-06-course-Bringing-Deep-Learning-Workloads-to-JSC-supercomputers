@@ -1,8 +1,8 @@
 ---
-author: Alexandre Strube // Sabrina Benassou
+author: Alexandre Strube // Sabrina Benassou // Javad Kasravi
 title: Bringing Deep Learning Workloads to JSC supercomputers
 subtitle: Data loading
-date: September 18, 2024
+date: November 19, 2024
 ---
 
 ### Schedule for day 2
@@ -108,7 +108,7 @@ ls -la
 
 ```bash
 cd $HOME/course
-git clone https://github.com/HelmholtzAI-FZJ/2024-08-course-Bringing-Deep-Learning-Workloads-to-JSC-supercomputers.git
+git clone https://github.com/HelmholtzAI-FZJ/2024-11-course-deep-learning-in-neuroscience
 ```
 
 ---

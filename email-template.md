@@ -1,17 +1,13 @@
 ---
-author: Alexandre Strube - Sabrina Benassou
-title: Bringing Deep Learning Workloads to JSC supercomputers
+author: Alexandre Strube // Sabrina Benassou // Javad Kasravi
+title: Deep Learning in Neuroscience // on the Supercomputers of the Jülich Supercomputing Centre
 # subtitle: A primer in supercomputers`
-date: September 17, 2024
+date: November 19, 2024
 ---
 
 Dear students,
 
 the next "Bringing Deep Learning Workloads to JSC supercomputers" course is approaching! Thank you all very much for your participation.
-
-The course is online, over zoom. It might be recorded. This is the link:
-https://go.fzj.de/bringing-dl-workloads-to-jsc-zoom
-
 
 *********
 IMPORTANT - Please check all steps! Some things need to be done some days BEFORE the course!!!
@@ -22,14 +18,11 @@ Checklist for BEFORE the course:
 - If you don't have one, make an account on JuDOOR, our portal: https://judoor.fz-juelich.de/register
 Instruction video: https://drive.google.com/file/d/1-DfiNBP4Gta0av4lQmubkXIXzr2FW4a-/view
 
-- Joining the course's project: https://go.fzj.de/bringing-dl-workloads-to-jsc-project-join
+- Joining the course's project: https://go.fzj.de/dl-in-neuroscience-project-join
 
 - Sign the usage agreements, as shown in this video: https://drive.google.com/file/d/1mEN1GmWyGFp75uMIi4d6Tpek2NC_X8eY/view
 
 - Install software (see below). On windows you DO need administrator rights. We can't support other softwares during the course.
-
-- We will use Slack for communication. Please log in BEFORE the course: https://go.fzj.de/bringing-dl-workloads-to-jsc-slack
-
 
 ---
 
@@ -70,7 +63,7 @@ The first day of the course is intended for people to get acquainted to the envi
 
 
 
-The course material is available at https://go.fzj.de/bringing-dl-workloads-to-jsc - I will be making some final commits to it, so make sure you reload it every now and then.
+The course material is available at https://go.fzj.de/dl-in-neuroscience - I will be making some final commits to it, so make sure you reload it every now and then.
 
 See you soon, 
 

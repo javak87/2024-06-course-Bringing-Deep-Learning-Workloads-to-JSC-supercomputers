@@ -1,22 +1,20 @@
 ---
-author: Alexandre Strube // Sabrina Benassou
+author: Alexandre Strube // Sabrina Benassou // Javad Kasravi
 title: Accessing the machines, intro
 # subtitle: A primer in supercomputers`
-date: September 17, 2024
+date: November 19, 2024
 ---
 ## Communication:
 
 Links for the complimentary parts of this course: 
 
-- [Zoom](https://go.fzj.de/bringing-dl-workloads-to-jsc-zoom)
-- [Slack](https://go.fzj.de/bringing-dl-workloads-to-jsc-slack)
-- [JSC Training Page](https://go.fzj.de/bringing-dl-workloads-to-jsc-course)
-- [Judoor project page invite](https://go.fzj.de/bringing-dl-workloads-to-jsc-project-join)
-- [This document: https://go.fzj.de/bringing-dl-workloads-to-jsc](https://go.fzj.de/bringing-dl-workloads-to-jsc)
+- [Event page](https://go.fzj.de/dl-in-neuroscience-course)
+- ***TODO*** [Judoor project page invite](https://go.fzj.de/dl-in-neuroscience-project-join)
+- [This document: https://go.fzj.de/dl-in-neuroscience](https://go.fzj.de/dl-in-neuroscience)
 - Our mailing list for [AI news](https://lists.fz-juelich.de/mailman/listinfo/ml)
-- [Survey at the end of the course](https://go.fzj.de/bringing-dl-workloads-to-jsc-survey)
+- ***TODO*** [Survey at the end of the course](https://go.fzj.de/dl-in-neuroscience-survey)
 - [Virtual Environment template](https://gitlab.jsc.fz-juelich.de/kesselheim1/sc_venv_template)
-- [SOURCE of the course/slides on Github](https://go.fzj.de/bringing-dl-workloads-to-jsc-repo)
+- [SOURCE of the course/slides on Github](https://go.fzj.de/dl-in-neuroscience-repo)
 
 ![](images/Logo_FZ_Juelich_rgb_Schutzzone_transparent.svg)
 
@@ -44,6 +42,10 @@ Links for the complimentary parts of this course:
 :::: {.col}
 ![Sabrina Benassou](pics/sabrina.jpg)
 ::::
+:::: {.col}
+![Javad Kasravi](pics/javad.jpg)
+::::
+
 :::
 
 ![](images/Logo_FZ_Juelich_rgb_Schutzzone_transparent.svg)
@@ -54,24 +56,24 @@ Links for the complimentary parts of this course:
 
 | Time          | Title        |
 | ------------- | -----------  |
-| 10:00 - 10:15 | Welcome      |
-| 10:15 - 11:00 | Introduction |
-| 11:00 - 11:15 | Coffee break |
-| 11:16 - 11:30 | Judoor, Keys |
-| 11:30 - 12:00 | SSH, Jupyter, VS Code |
+| 09:00 - 09:15 | Welcome      |
+| 09:15 - 10:00 | Introduction |
+| 11:00 - 10:15 | Coffee break |
+| 10:16 - 10:30 | Judoor, Keys |
+| 10:30 - 11:00 | SSH, Jupyter, VS Code |
+| 11:00 - 11:15 | Coffee Break |
+| 11:15 - 12:00 | Running services on the login and compute nodes | 
 | 12:00 - 12:15 | Coffee Break |
-| 12:15 - 13:00 | Running services on the login and compute nodes | 
-| 13:00 - 13:15 | Coffee Break |
-| 13:30 - 14:00 | Sync (everyone should be at the same point) |
+| 12:30 - 13:00 | Sync (everyone should be at the same point) |
 
 ---
 
 ### Note
 
 Please open this document on your own browser! We will need it for the exercises.
-[https://go.fzj.de/bringing-dl-workloads-to-jsc](https://go.fzj.de/bringing-dl-workloads-to-jsc)
+[https://go.fzj.de/dl-in-neuroscience](https://go.fzj.de/dl-in-neuroscience)
 
-![Mobile friendly, but you need it on your computer, really](images/bringing-dl-workloads-to-jsc.png)
+![Mobile friendly, but you need it on your computer, really](images/dl-in-neuroscience.png)
 
 ---
 
@@ -228,12 +230,12 @@ Please open this document on your own browser! We will need it for the exercises
 ### Connecting to Jureca DC
 
 #### Getting compute time
-- Go to [https://go.fzj.de/bringing-dl-workloads-to-jsc-project-join](https://go.fzj.de/bringing-dl-workloads-to-jsc-project-join)
+- Go to [https://go.fzj.de/dl-in-neuroscience-project-join](https://go.fzj.de/dl-in-neuroscience-project-join)
 - Join the course project `training2434`
 - Sign the Usage Agreements ([Video](https://drive.google.com/file/d/1mEN1GmWyGFp75uMIi4d6Tpek2NC_X8eY/view))
 - Compute time allocation is based on compute projects. For every compute job, a compute project pays.
-- Time is measured in core-hours. One hour of Jureca DC is 48 core-hours.
-- Example: Job runs for 8 hours on 64 nodes of Jureca DC: 8 * 64 * 48 = 24576 core-h!
+- Time is measured in core-hours. One hour of Jureca DC is 128 core-hours.
+- Example: Job runs for 8 hours on 64 nodes of Jureca DC: 8 * 64 * 128 = 65536 core-h!
 
 ---
 
