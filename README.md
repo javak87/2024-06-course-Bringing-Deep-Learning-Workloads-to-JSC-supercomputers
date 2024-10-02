@@ -1,13 +1,13 @@
 ---
-author: Alexandre Strube // Sabrina Benassou
-title: Bringing Deep Learning Workloads to JSC supercomputers
+author: Alexandre Strube // Sabrina Benassou // Javad Kasravi
+title: Deep Learning in Neuroscience // on the Supercomputers of the Jülich Supercomputing Centre
 ---
 
-This repo is specifically for the course described in [indico](https://indico3-jsc.fz-juelich.de/event/181)
+This repo is specifically for the course described in [hifis](https://go.fzj.de/dl-in-neuroscience-course)
 
-### It's a two-mornings course.
+### It's a single-morning course - a short version of the Bringing Deep Learning Workloads to JSC supercomputers course.
 
-This course will take place as an online event. The link to the online platform will be provided to the accepted registrants only.
+This course will take place as an in-person event.
 
 ---
 
@@ -39,16 +39,17 @@ This course is given in English.
 
 ### Date:
 
-Jun 25 – 26, 2024, 10:00 - 14:00 each day
+November 19, 2024
 
 ### Further information:
 
-please visit the JSC webpage https://www.fz-juelich.de/en/ias/jsc/news/events/training-courses/2024/ai-sc-2
+please visit the HIFIS webpage: https://go.fzj.de/dl-in-neuroscience-course
 
 ### Instructors:
 
 Dr. Alexandre Strube, JSC
-Sabrina Narimene Benassou, JSC
+Dr. Sabrina Narimene Benassou, JSC
+Dr. Javad Kasravi
 
 ---
 
@@ -63,11 +64,10 @@ Sabrina Narimene Benassou, JSC
 Please, fork this thing! Use it! And submit merge requests!
 
 ## Authors and acknowledgment
-Alexandre Otto Strube, Sabrina Benassou Feb. 2023
+Alexandre Otto Strube, Sabrina Benassou, Javad Kasravi Nov. 2024
 
 ## Certificate
-Turns out indico does not have a certificate system - but one can use the badges as a template - and add an image to the back of it. I added the "participation certificate" word document here as a template for that. I am doing this with text so I can use better typography than allowed by indico. Generate a large bitmap from that page and simply add to further courses.
-
+Certificates will be provided to all participants who attend the course.
 
 ## License
 MIT License (https://opensource.org/licenses/MIT)
