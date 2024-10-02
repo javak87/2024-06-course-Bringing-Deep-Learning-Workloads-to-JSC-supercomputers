@@ -1,5 +1,5 @@
 ---
-author: Alexandre Strube || Sabrina Benassou || Javad Kasravi
+author: Alexandre Strube, Sabrina Benassou, Javad Kasravi
 title: Deep Learning in Neuroscience on the Supercomputers of the Jülich Supercomputing Centre
 ---
 
@@ -47,7 +47,7 @@ please visit the HIFIS webpage: https://go.fzj.de/dl-in-neuroscience-course
 
 ### Instructors:
 
-- Dr. Alexandre Strube, JSC
+- [Dr. Alexandre Strube, JSC](http://surak.github.io)
 - Dr. Sabrina Narimene Benassou, JSC
 - Dr. Javad Kasravi
 
