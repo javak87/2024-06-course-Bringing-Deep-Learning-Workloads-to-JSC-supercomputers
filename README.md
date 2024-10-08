@@ -49,7 +49,7 @@ please visit the HIFIS webpage: https://go.fzj.de/dl-in-neuroscience-course
 
 - [Dr. Alexandre Strube, JSC](http://surak.github.io)
 - Dr. Sabrina Narimene Benassou, JSC
-- Dr. Javad Kasravi
+- Javad Kasravi
 
 ---
 
