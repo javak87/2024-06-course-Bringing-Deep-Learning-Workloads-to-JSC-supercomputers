@@ -9,10 +9,10 @@ date: November 19, 2024
 Links for the complimentary parts of this course: 
 
 - [Event page](https://go.fzj.de/dl-in-neuroscience-course)
-- ***TODO*** [Judoor project page invite](https://go.fzj.de/dl-in-neuroscience-project-join)
+- [Judoor project page invite](https://go.fzj.de/dl-in-neuroscience-project-join)
 - [This document: https://go.fzj.de/dl-in-neuroscience](https://go.fzj.de/dl-in-neuroscience)
 - Our mailing list for [AI news](https://lists.fz-juelich.de/mailman/listinfo/ml)
-- ***TODO*** [Survey at the end of the course](https://go.fzj.de/dl-in-neuroscience-survey)
+- [Survey at the end of the course](https://go.fzj.de/dl-in-neuroscience-survey)
 - [Virtual Environment template](https://gitlab.jsc.fz-juelich.de/kesselheim1/sc_venv_template)
 - [SOURCE of the course/slides on Github](https://go.fzj.de/dl-in-neuroscience-repo)
 
