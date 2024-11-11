@@ -1,6 +1,6 @@
 ---
 author: Alexandre Strube // Sabrina Benassou // Javad Kasravi
-title: Deep Learning in Neuroscience // on the Supercomputers of the Jülich Supercomputing Centre
+title: Bringing Deep Learning Workloads to JSC supercomputers course
 # subtitle: A primer in supercomputers`
 date: November 19, 2024
 ---
