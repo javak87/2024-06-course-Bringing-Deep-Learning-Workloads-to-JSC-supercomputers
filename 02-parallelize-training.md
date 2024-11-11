@@ -720,7 +720,6 @@ tensorboard --logdir=[PATH_TO_TENSOR_BOARD]
 
 ## DAY 2 RECAP 
 
-- Access using FS, Arrow, and H5 files
 - Ran parallel code.
 - Can submit single node, multi-gpu and multi-node training.
 - Use TensorBoard on the supercomputer.
