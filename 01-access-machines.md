@@ -52,19 +52,19 @@ Links for the complimentary parts of this course:
 
 ---
 
-### Schedule 
+### Schedule
 
 | Time          | Title        |
 | ------------- | -----------  |
 | 09:00 - 09:15 | Welcome      |
 | 09:15 - 10:00 | Introduction |
 | 11:00 - 10:15 | Coffee break |
-| 10:16 - 10:30 | Jupyter-JSC |
-| 10:30 - 11:00 | sc_venv_template |
+| 10:16 - 10:30 | Judoor, Keys |
+| 10:30 - 11:00 | Jupyter-JSC |
 | 11:00 - 11:15 | Coffee Break |
-| 11:15 - 12:00 | Run your first job | 
-| 12:00 - 12:45 | Parallelize your code  |
-| 12:40 - 13:00 | Wrap up |
+| 11:15 - 12:00 | Running services on the login and compute nodes | 
+| 12:00 - 12:15 | Coffee Break |
+| 12:30 - 13:00 | Sync (everyone should be at the same point) |
 
 ---
 
@@ -415,6 +415,22 @@ The following modules match your search criteria: "toml"
 
 #### create an python file
 ![](images/open-editor-matrix-python.png)
+
+---
+
+#### create a python file
+``` {.bash .number-lines}
+import torch
+
+matrix1 = torch.randn(3,3)
+print("The first matrix is", matrix1)
+
+matrix2 = torch.randn(3,3)
+print("The second matrix is", matrix2)
+
+result = torch.matmul(matrix1,matrix2)
+print("The result is:\n", result)
+```
 
 ---
 
