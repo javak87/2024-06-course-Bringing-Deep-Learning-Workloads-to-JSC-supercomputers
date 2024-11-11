@@ -52,7 +52,7 @@ Links for the complimentary parts of this course:
 
 ---
 
-### Schedule for day 1
+### Schedule
 
 | Time          | Title        |
 | ------------- | -----------  |
@@ -415,6 +415,22 @@ The following modules match your search criteria: "toml"
 
 #### create an python file
 ![](images/open-editor-matrix-python.png)
+
+---
+
+#### create a python file
+``` {.bash .number-lines}
+import torch
+
+matrix1 = torch.randn(3,3)
+print("The first matrix is", matrix1)
+
+matrix2 = torch.randn(3,3)
+print("The second matrix is", matrix2)
+
+result = torch.matmul(matrix1,matrix2)
+print("The result is:\n", result)
+```
 
 ---
 
